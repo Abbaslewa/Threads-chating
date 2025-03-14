@@ -1,7 +1,7 @@
 import cron from "cron";
 import https from "https";
 
-const URL = "http://localhost:3000";
+const URL = "https://threads-forntend-backend.onrender.com";
 
 const job = new cron.CronJob("*/14 * * * *", function () {
 	https
